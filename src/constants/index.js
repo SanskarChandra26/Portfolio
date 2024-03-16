@@ -23,6 +23,11 @@ import {
   jobit,
   tripguide,
   threejs,
+  hyperverge,
+  newtonSchool,
+  audiophiles,
+  codeEditor,
+  openAi,
 } from "../assets";
 
 export const navLinks = [
@@ -46,16 +51,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "DevOps",
+    icon: docker,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "React JS",
+    icon: reactjs,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Node JS",
+    icon: nodejs,
   },
 ];
 
@@ -116,55 +121,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "SDE INTERN",
+    company_name: "Hyperverge",
+    icon: hyperverge,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Januray 2024 - Current",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created a Book My Show site with TypeScript, Tailwind, Node.js, and Google Auth integration",
+      "Implemented caching, pagination, lazy loading, and minified CSS/JS scripts to optimize performance",
+      "Developed and published a UI library on npm with 4k+ downloads, comprising diverse components.",
+      "Conducted Playwright-based component testing and utilized Jest for unit testing to ensure robust code quality.",
+      "Used Docker for efficient project deployment, enhancing scalability and maintainability of the website",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Technical Content Engineer Intern",
+    company_name: "Newton School",
+    icon: newtonSchool,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2023 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created and reviewed Real-life programming questions and test problems created by other problem setters along with their test cases for frontend technologies (HTML, CSS, JS React)",
+      "Created assessment-based multiple choice questions for learning outcomes for the frontend technologies (HTML, CSS, JS React)",
+      "Implemented and ensured best practices are followed in all technical content.",
     ],
   },
 ];
@@ -198,16 +177,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Audiophiles",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a responsive Ecommerce app with secure Stripe payments, managing products and checkout process to ensure a seamless user experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +194,46 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: audiophiles,
+    source_code_link: "https://eccomerce-sanity-stripe-sanskarchandra26.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Code Editor",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a CodeEditor using React.js, CodeMirror offering a user-friendly web-based code editor with real-time HTML, CSS, and JavaScript editing capabilities..",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CodeMirror",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: codeEditor,
+    source_code_link: "https://code-editor-5.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "OpenAi Article Summarizer",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Built an article summarizer application using open ai's gpt model and inegrated rtk queries",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "rapid api",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "rtk query",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: openAi,
+    source_code_link: "https://super-pudding-87d56d.netlify.app/",
   },
 ];
 

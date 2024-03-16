@@ -25,11 +25,16 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import hyperverge from './company/hyperverge.png'
+import newtonSchool from './company/newtonSchool.png'
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import audiophiles from './audiophiles.png'
+import codeEditor from './codeEditor.png'
+import openAi from './openAi.png'
+import link from './link.jpeg'
 export {
   logo,
   backend,
@@ -59,4 +64,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  hyperverge,
+  newtonSchool,
+  audiophiles,
+  codeEditor,
+  openAi,
+  link,
 };
